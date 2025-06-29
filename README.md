@@ -6,7 +6,7 @@
 
 ## 🚀 Features
 
-- 🔍 **Search any food** (e.g., "chips and chicken") and get instant nutrition facts
+- 🔍 **Search any food** (e.g., "chips") and get instant nutrition facts
 - 📊 **Nutritional breakdown** per 100g (carbs, fat, cholesterol, sugar, etc.)
 - ⚠️ **Health warnings** if a food item is too high in sugar, sodium, or fat
 - 🏃 **Exercise estimations** – See how long you'd need to jog, walk, or do yoga to burn off the calories
@@ -17,7 +17,7 @@
 ## 🛠️ Tech Stack
 
 - **Backend**: Django (Python)
-- **Frontend**: HTML5, Bootstrap 5
+- **Frontend**: HTML5
 - **Charts**: Chart.js
 - **API**: [Nutritionix API](https://www.nutritionix.com/business/api)
 
@@ -27,5 +27,5 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/foodie-calorie-finder.git
+   git clone https://github.com/ogoto99/foodie-calorie-finder.git
    cd foodie-calorie-finder
