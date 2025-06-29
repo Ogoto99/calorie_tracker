@@ -45,6 +45,13 @@
                     <img src="{% static 'images/shocked.png' %}" class="img-responsive" />
                   {% endif %}
                 </h1>
+                {% if warnings %}
+                {% for warning in warnings %}
+                  <div class="alert alert-danger d-flex align-items-center mt-3" role="alert">
+                    <div>{{ warning }}</div>
+                  </div>
+                {% endfor %}
+                {% endif %}
 
                 <div class="row justify-content-center mt-5 mb-5">
                   <div class="col-md-10 caloriescont shadow rounded">
@@ -109,14 +116,6 @@
                   </div>
                 </div>
               {% endfor %}
-
-              {% if warnings %}
-                {% for warning in warnings %}
-                  <div class="alert alert-danger d-flex align-items-center mt-3" role="alert">
-                    <div>{{ warning }}</div>
-                  </div>
-                {% endfor %}
-              {% endif %}
             {% endif %}
           {% endif %}
         </div>
